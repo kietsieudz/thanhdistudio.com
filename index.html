@@ -4,29 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Top Server Ngọc Rồng Hay Nhất 2026 - Click Ngay Tặng VIP Code
-      Khủng</title>
+    <title>Thanh Di Studio – Server Game Uy Tín</title>
     <meta name="description"
-      content="Tổng hợp server Ngọc Rồng (NRO) hay nhất 2026. Máy chủ chống DDoS cực mượt, không giật lag. Sự kiện đua top liên tục, phát Giftcode tân thủ mỗi ngày. Click tham gia ngay!">
+      content="Thanh Di Studio – Nền tảng tổng hợp server game uy tín hàng đầu. TDStudio, NCD và nhiều server chất lượng khác. Sự kiện liên tục, Giftcode khủng, cộng đồng đông đảo.">
 
-    <!-- Open Graph / Facebook, Zalo, Discord... -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://thanhdistudio.com/">
-    <meta property="og:site_name" content="GameHub VN">
-    <meta property="og:title"
-      content="🔥 Top Server Ngọc Rồng Đỉnh Nhất 2026 | Click Ngay Nhận Giftcode VIP">
+    <meta property="og:site_name" content="Thanh Di Studio">
+    <meta property="og:title" content="Thanh Di Studio – Server Game Uy Tín">
     <meta property="og:description"
-      content="🚀 Đam mê cày cuốc? Tham gia ngay! Hạ tầng máy chủ siêu mượt, ping xanh, không giật lag. Cộng đồng cực đông, chuỗi sự kiện và Giftcode phát liên tục. Bấm để lấy Code chiến ngay!">
+      content="Nền tảng tổng hợp server game uy tín hàng đầu. TDStudio, NCD và nhiều server chất lượng khác. Sự kiện liên tục, Giftcode khủng, cộng đồng đông đảo.">
     <meta property="og:image"
       content="https://thanhdistudio.com/images/preview_tdstudio.png">
     <meta property="og:locale" content="vi_VN">
 
-    <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title"
-      content="Top Server Ngọc Rồng Hay Nhất 2026 | Click Ngay Nhận Giftcode VIP">
+    <meta name="twitter:title" content="Thanh Di Studio – Server Game Uy Tín">
     <meta name="twitter:description"
-      content="Tổng hợp server Ngọc Rồng (NRO) hay nhất 2026. Máy chủ hạ tầng đỉnh cao, không giật lag. Phát Giftcode tân thủ mỗi ngày. Click tham gia ngay!">
+      content="Nền tảng tổng hợp server game uy tín hàng đầu. TDStudio, NCD và nhiều server chất lượng khác. Sự kiện liên tục, Giftcode khủng, cộng đồng đông đảo.">
     <meta name="twitter:image"
       content="https://thanhdistudio.com/images/preview_tdstudio.png">
 
@@ -58,7 +53,6 @@
     position:relative;
   }
 
-  /* animated background */
   .bg-glow{
     position:fixed;
     inset:0;
@@ -83,10 +77,10 @@
     pointer-events:none;
     animation: float 9s ease-in-out infinite;
   }
-  .orb1{ width:14px; height:14px; left:8%; top:18%; background:var(--accent); animation-delay:0s;}
-  .orb2{ width:10px; height:10px; left:85%; top:30%; background:var(--zalo); animation-delay:1.5s;}
-  .orb3{ width:8px; height:8px; left:70%; top:70%; background:var(--accent-2); animation-delay:3s;}
-  .orb4{ width:12px; height:12px; left:15%; top:75%; background:var(--accent); animation-delay:2s;}
+  .orb1{ width:14px;height:14px;left:8%;top:18%;background:var(--accent);animation-delay:0s; }
+  .orb2{ width:10px;height:10px;left:85%;top:30%;background:var(--zalo);animation-delay:1.5s; }
+  .orb3{ width:8px;height:8px;left:70%;top:70%;background:var(--accent-2);animation-delay:3s; }
+  .orb4{ width:12px;height:12px;left:15%;top:75%;background:var(--accent);animation-delay:2s; }
   @keyframes float{
     0%,100%{ transform:translateY(0) translateX(0); }
     50%{ transform:translateY(-26px) translateX(10px); }
@@ -95,57 +89,234 @@
   .wrap{
     max-width:720px;
     margin:0 auto;
-    padding:0 18px 40px;
+    padding:24px 18px 40px;
   }
 
-  /* header */
+  /* ── Header / Brand ── */
   header{
-    text-align:center;
-    padding:54px 18px 30px;
+    /* hình vuông: cố gắng bằng chiều rộng màn hình, tối thiểu 280px tối đa 440px */
+    min-height:clamp(280px,100vw,440px);
+    padding:0 24px 32px;
     position:relative;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    background:
+      linear-gradient(to bottom, rgba(11,15,31,0.08) 0%, rgba(11,15,31,0.55) 62%, rgba(11,15,31,0.96) 100%),
+      url('images/banner.png') center 22%/cover no-repeat;
   }
-  .badge{
-    display:inline-flex;
+  .brand-header{
+    display:flex;
     align-items:center;
-    gap:6px;
-    background:rgba(255,182,72,0.12);
-    border:1px solid rgba(255,182,72,0.35);
-    color:var(--accent);
-    font-size:13px;
-    font-weight:600;
-    padding:6px 14px;
-    border-radius:999px;
-    letter-spacing:.3px;
+    gap:18px;
+    max-width:720px;
+    width:100%;
+    margin:0 auto;
   }
+  .brand-text{
+    flex:1;
+    min-width:0;
+    text-align:left;
+  }
+
+  /* Wrapper holds ripple rings + logo — must NOT clip overflow */
+  .brand-mark-wrap{
+    position:relative;
+    width:84px;height:84px;
+    flex:none;
+  }
+
+  /* Three water-ripple rings */
+  .ripple{
+    position:absolute;inset:0;
+    border-radius:50%;
+    border:2px solid var(--accent);
+    opacity:0;
+    animation: ripple-out 2.4s ease-out infinite;
+    pointer-events:none;
+  }
+  .r1{ animation-delay:0s; }
+  .r2{ animation-delay:.8s; }
+  .r3{ animation-delay:1.6s; }
+  @keyframes ripple-out{
+    0%  { transform:scale(1);   opacity:.7; }
+    100%{ transform:scale(2.6); opacity:0;  }
+  }
+
+  /* Logo circle */
+  .brand-mark{
+    position:absolute;inset:0;
+    border-radius:50%;
+    background:linear-gradient(150deg,var(--accent),var(--accent-2));
+    border:3px solid var(--accent);
+    box-shadow:0 0 0 3px rgba(255,182,72,0.22), 0 10px 28px -6px rgba(255,122,61,0.55);
+    overflow:hidden;
+  }
+  .brand-mark img{
+    position:absolute;inset:0;
+    width:100%;height:100%;
+    object-fit:cover;display:block;
+  }
+
+  /* "Thanh Di" — xanh dương */
   h1{
-    font-size:clamp(28px,7vw,42px);
+    font-size:clamp(24px,6.5vw,44px);
     font-weight:900;
-    margin-top:16px;
     line-height:1.15;
-    background:linear-gradient(95deg,#fff 10%,var(--accent) 55%,var(--accent-2) 90%);
+    letter-spacing:-0.5px;
+    background:linear-gradient(95deg,#93c5fd 0%,#3b82f6 100%);
     -webkit-background-clip:text;
     background-clip:text;
     color:transparent;
   }
-  header p.sub{
+
+  /* "Studio" — cam, cùng hàng với "Thanh Di" */
+  .studio-word{
+    display:inline;
+    font-size:inherit;
+    font-weight:inherit;
+    letter-spacing:inherit;
+    color:var(--accent);
+    background:none;
+    -webkit-background-clip:unset;
+    background-clip:unset;
+    opacity:1;
+  }
+
+  .brand-sub{
     margin-top:12px;
     color:var(--text-dim);
-    font-size:clamp(14px,3.6vw,17px);
+    font-size:clamp(13px,3.4vw,15px);
     font-weight:500;
+    letter-spacing:.1px;
   }
-  header p.sub b{ color:var(--text); }
-  /* entrance animation only when the browser allows motion - elements stay
-     fully visible by default so they never get stuck hidden */
+
   @media (prefers-reduced-motion: no-preference){
-    .badge{ opacity:0; animation: pop .6s .1s ease forwards; }
-    h1{ opacity:0; animation: pop .7s .25s ease forwards; }
-    header p.sub{ opacity:0; animation: pop .7s .4s ease forwards; }
+    .brand-mark-wrap{ opacity:0; animation: pop .6s .05s ease forwards; }
+    h1          { opacity:0; animation: pop .7s .2s  ease forwards; }
+    .brand-sub  { opacity:0; animation: pop .7s .35s ease forwards; }
   }
   @keyframes pop{
     from{ opacity:0; transform:translateY(14px); }
-    to{ opacity:1; transform:translateY(0); }
+    to  { opacity:1; transform:translateY(0); }
   }
 
+  /* ── Game Quick Nav ── */
+  .game-nav-wrap{
+    position:sticky;
+    top:0;
+    z-index:50;
+    /* safe-area cho notch/dynamic island iOS */
+    padding-top:max(0px, env(safe-area-inset-top));
+    backdrop-filter:blur(22px) saturate(160%);
+    -webkit-backdrop-filter:blur(22px) saturate(160%);
+    background:rgba(11,15,31,0.96);
+    border-bottom:1px solid var(--card-border);
+  }
+  .nav-section-label{
+    text-align:center;
+    font-size:10.5px;
+    font-weight:800;
+    letter-spacing:2.5px;
+    text-transform:uppercase;
+    color:var(--accent);
+    padding:9px 18px 0;
+    opacity:.6;
+  }
+  .game-nav{
+    display:flex;
+    justify-content:center;
+    gap:clamp(12px,5vw,44px);
+    padding:0 18px;
+    max-width:720px;
+    margin:0 auto;
+  }
+  .nav-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:6px;
+    background:none;
+    border:none;
+    padding:4px 6px 14px;
+    cursor:pointer;
+    -webkit-tap-highlight-color:transparent;
+    position:relative;
+    font-family:inherit;
+    outline:none;
+    user-select:none;
+  }
+  .nav-icon{
+    width:60px;
+    height:60px;
+    border-radius:17px;
+    overflow:hidden;
+    position:relative;
+    border:2.5px solid rgba(255,255,255,0.07);
+    box-shadow:0 6px 18px -6px rgba(0,0,0,0.6);
+    transition:transform .38s cubic-bezier(.34,1.56,.64,1),
+               border-color .3s ease,
+               box-shadow .3s ease;
+    flex:none;
+  }
+  .nav-icon img{
+    position:absolute;inset:0;
+    width:100%;height:100%;
+    object-fit:cover;
+    display:block;
+  }
+  .nav-icon .nav-emoji{
+    position:absolute;inset:0;
+    display:flex;align-items:center;justify-content:center;
+    font-size:28px;
+  }
+  .nav-label{
+    font-size:11px;
+    font-weight:700;
+    color:var(--text-dim);
+    text-align:center;
+    line-height:1.3;
+    transition:color .25s ease;
+    white-space:nowrap;
+    letter-spacing:.2px;
+  }
+  .nav-item::after{
+    content:'';
+    position:absolute;
+    bottom:4px;left:50%;
+    transform:translateX(-50%) scaleX(0);
+    transform-origin:center;
+    width:22px;height:3px;
+    border-radius:2px;
+    transition:transform .3s ease, background .3s ease;
+  }
+  /* active-1: orange */
+  .nav-item.a1 .nav-icon{
+    border-color:var(--accent);
+    box-shadow:0 0 0 3px rgba(255,182,72,.3), 0 8px 22px -6px rgba(255,122,61,.55);
+    transform:translateY(-5px) scale(1.07);
+  }
+  .nav-item.a1 .nav-label{ color:var(--accent); }
+  .nav-item.a1::after{ transform:translateX(-50%) scaleX(1); background:var(--accent); }
+  /* active-2: blue */
+  .nav-item.a2 .nav-icon{
+    border-color:#67b3ff;
+    box-shadow:0 0 0 3px rgba(0,104,255,.3), 0 8px 22px -6px rgba(0,104,255,.55);
+    transform:translateY(-5px) scale(1.07);
+  }
+  .nav-item.a2 .nav-label{ color:#67b3ff; }
+  .nav-item.a2::after{ transform:translateX(-50%) scaleX(1); background:#67b3ff; }
+  /* active-3: purple */
+  .nav-item.a3 .nav-icon{
+    border-color:#c084fc;
+    box-shadow:0 0 0 3px rgba(168,85,247,.3), 0 8px 22px -6px rgba(124,58,237,.55);
+    transform:translateY(-5px) scale(1.07);
+  }
+  .nav-item.a3 .nav-label{ color:#c084fc; }
+  .nav-item.a3::after{ transform:translateX(-50%) scaleX(1); background:#c084fc; }
+
+  /* ── Section title ── */
   .section-title{
     display:flex;
     align-items:center;
@@ -160,7 +331,7 @@
     background:linear-gradient(90deg,var(--card-border),transparent);
   }
 
-  /* reveal on scroll */
+  /* ── Reveal on scroll ── */
   .reveal{
     opacity:0;
     transform:translateY(28px);
@@ -171,7 +342,7 @@
     transform:translateY(0);
   }
 
-  /* server cards */
+  /* ── Cards ── */
   .card{
     background:linear-gradient(160deg,var(--card),rgba(17,22,43,0.6));
     border:1px solid var(--card-border);
@@ -180,13 +351,24 @@
     margin-bottom:20px;
     position:relative;
     overflow:hidden;
-    transition:transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+    transition:border-color .35s ease, box-shadow .35s ease;
+    scroll-margin-top:160px;
   }
   .card:active{ transform:scale(.98); }
-  .card:hover{
+  /* Per-game hover — ID selector survives DOM reorder */
+  #s-tdstudio:hover{
     border-color:rgba(255,182,72,0.35);
     box-shadow:0 16px 40px -12px rgba(255,122,61,0.25);
   }
+  #s-ncd:hover{
+    border-color:rgba(103,179,255,0.35);
+    box-shadow:0 16px 40px -12px rgba(0,104,255,0.22);
+  }
+  #s-game3:hover{
+    border-color:rgba(192,132,252,0.35);
+    box-shadow:0 16px 40px -12px rgba(124,58,237,0.28);
+  }
+
   .card-media{
     position:relative;
     aspect-ratio:16/9;
@@ -196,16 +378,13 @@
     background:linear-gradient(135deg,#1c2242,#262c4d);
   }
   .card-media img{
-    position:absolute;
-    inset:0;
-    width:100%;
-    height:100%;
+    position:absolute;inset:0;
+    width:100%;height:100%;
     object-fit:cover;
     display:block;
   }
   .card-media .media-fallback{
-    position:absolute;
-    inset:0;
+    position:absolute;inset:0;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -221,7 +400,7 @@
   .card-media .media-fallback::after{
     content:"";
     position:absolute;
-    top:0; bottom:0; left:-60%;
+    top:0;bottom:0;left:-60%;
     width:40%;
     background:linear-gradient(100deg,transparent,rgba(255,255,255,0.06),transparent);
   }
@@ -232,61 +411,57 @@
     0%{ left:-60%; }
     100%{ left:120%; }
   }
-  .card-top{
-    display:flex;
-    align-items:center;
-    gap:14px;
-  }
+
+  .card-top{ display:flex;align-items:center;gap:14px; }
   .icon-badge{
     width:54px;height:54px;
     flex:none;
     border-radius:16px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display:flex;align-items:center;justify-content:center;
     font-size:26px;
-    background:linear-gradient(150deg,var(--accent),var(--accent-2));
-    box-shadow:0 8px 18px -6px rgba(255,122,61,0.5), 0 0 0 3px rgba(255,182,72,0.55);
-    border:2px solid rgba(255,255,255,0.85);
     animation: bob 3.4s ease-in-out infinite;
     position:relative;
     overflow:hidden;
+    border:2px solid rgba(255,255,255,0.85);
   }
   .icon-badge img{
-    position:absolute;
-    inset:0;
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    display:block;
+    position:absolute;inset:0;
+    width:100%;height:100%;
+    object-fit:cover;display:block;
   }
-  .card:nth-of-type(2) .icon-badge{
+  /* Per-game icon badge colours — ID-based so reorder doesn't break them */
+  #s-tdstudio .icon-badge{
+    background:linear-gradient(150deg,var(--accent),var(--accent-2));
+    box-shadow:0 8px 18px -6px rgba(255,122,61,0.5), 0 0 0 3px rgba(255,182,72,0.55);
+    animation-delay:0s;
+  }
+  #s-ncd .icon-badge{
     background:linear-gradient(150deg,#3da9ff,var(--zalo));
     box-shadow:0 8px 18px -6px rgba(0,104,255,0.5), 0 0 0 3px rgba(0,104,255,0.45);
     animation-delay:.4s;
+  }
+  #s-game3 .icon-badge{
+    background:linear-gradient(150deg,#c084fc,#7c3aed);
+    box-shadow:0 8px 18px -6px rgba(124,58,237,0.5), 0 0 0 3px rgba(192,132,252,0.45);
+    animation-delay:.8s;
   }
   @keyframes bob{
     0%,100%{ transform:translateY(0) rotate(0deg); }
     50%{ transform:translateY(-5px) rotate(-4deg); }
   }
-  .card h3{
-    font-size:19px;
-    font-weight:800;
-  }
+
+  .card h3{ font-size:19px;font-weight:800; }
   .tag{
     display:inline-block;
     margin-top:4px;
-    font-size:12px;
-    font-weight:700;
-    color:var(--accent);
-    background:rgba(255,182,72,0.12);
+    font-size:12px;font-weight:700;
     padding:3px 10px;
     border-radius:999px;
   }
-  .card:nth-of-type(2) .tag{
-    color:#67b3ff;
-    background:rgba(0,104,255,0.14);
-  }
+  #s-tdstudio .tag{ color:var(--accent);background:rgba(255,182,72,0.12); }
+  #s-ncd .tag{ color:#67b3ff;background:rgba(0,104,255,0.14); }
+  #s-game3 .tag{ color:#c084fc;background:rgba(124,58,237,0.14); }
+
   .card p.desc{
     margin-top:14px;
     color:var(--text-dim);
@@ -294,17 +469,15 @@
     line-height:1.6;
   }
   .status-row{
-    display:flex;
-    gap:16px;
+    display:flex;gap:16px;
     margin-top:14px;
     font-size:12.5px;
     color:var(--text-dim);
   }
-  .status-row span{ display:flex; align-items:center; gap:5px; }
+  .status-row span{ display:flex;align-items:center;gap:5px; }
   .dot{
     width:8px;height:8px;border-radius:50%;
     background:#3ddc84;
-    box-shadow:0 0 0 0 rgba(61,220,132,.6);
     animation: ping 1.8s ease-out infinite;
   }
   @keyframes ping{
@@ -313,65 +486,78 @@
     100%{ box-shadow:0 0 0 0 rgba(61,220,132,0); }
   }
 
-  .btn-row{
-    display:flex;
-    gap:10px;
-    margin-top:18px;
-    flex-wrap:wrap;
-  }
+  .btn-row{ display:flex;gap:10px;margin-top:18px;flex-wrap:wrap; }
   .btn{
-    flex:1;
-    min-width:120px;
+    flex:1;min-width:120px;
     text-align:center;
     padding:13px 16px;
     border-radius:13px;
-    font-weight:700;
-    font-size:14.5px;
-    text-decoration:none;
-    color:#fff;
+    font-weight:700;font-size:14.5px;
+    text-decoration:none;color:#fff;
     border:1px solid transparent;
     transition:transform .25s ease, filter .25s ease, box-shadow .25s ease;
-    position:relative;
   }
   .btn:active{ transform:scale(.95); }
-  .btn-primary{
+  /* Primary buttons per game */
+  #s-tdstudio .btn-primary,
+  #s-ncd .btn-primary{
     background:linear-gradient(120deg,var(--accent),var(--accent-2));
     box-shadow:0 10px 22px -8px rgba(255,122,61,0.55);
   }
+  #s-game3 .btn-primary{
+    background:linear-gradient(120deg,#a855f7,#7c3aed);
+    box-shadow:0 10px 22px -8px rgba(124,58,237,0.55);
+  }
   .btn-primary:hover{ filter:brightness(1.08); }
+  /* Zalo buttons */
   .btn-zalo{
     background:rgba(0,104,255,0.12);
     border-color:rgba(0,104,255,0.45);
     color:#67b3ff;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:7px;
+    display:flex;align-items:center;justify-content:center;gap:7px;
   }
   .btn-zalo:hover{ background:rgba(0,104,255,0.2); }
-  .btn-zalo svg{ width:16px;height:16px; flex:none; }
+  .btn-zalo svg{ width:16px;height:16px;flex:none; }
+  #s-game3 .btn-zalo{
+    background:rgba(124,58,237,0.12);
+    border-color:rgba(168,85,247,0.45);
+    color:#c084fc;
+  }
+  #s-game3 .btn-zalo:hover{ background:rgba(124,58,237,0.22); }
 
-  /* community grid */
+  /* ── "Featured" badge on first card ── */
+  #cards-wrap .card:first-child::before{
+    content:'✦ Nổi bật';
+    position:absolute;
+    top:14px;right:16px;
+    font-size:11px;font-weight:800;
+    color:var(--accent);
+    background:rgba(255,182,72,0.12);
+    border:1px solid rgba(255,182,72,0.3);
+    padding:3px 10px;
+    border-radius:999px;
+    pointer-events:none;
+    z-index:1;
+    letter-spacing:.3px;
+  }
+  #cards-wrap #s-ncd:first-child::before{ color:#67b3ff;background:rgba(0,104,255,0.12);border-color:rgba(0,104,255,0.3); }
+  #cards-wrap #s-game3:first-child::before{ color:#c084fc;background:rgba(124,58,237,0.12);border-color:rgba(168,85,247,0.3); }
+
+  /* ── Zalo community ── */
   .zalo-grid{
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:12px;
   }
-  @media (max-width:420px){
-    .zalo-grid{ grid-template-columns:1fr; }
-  }
+  @media (max-width:420px){ .zalo-grid{ grid-template-columns:1fr; } }
   .zalo-pill{
-    display:flex;
-    align-items:center;
-    gap:10px;
+    display:flex;align-items:center;gap:10px;
     background:var(--card);
     border:1px solid var(--card-border);
     border-radius:15px;
     padding:14px 16px;
-    text-decoration:none;
-    color:var(--text);
-    font-weight:600;
-    font-size:14px;
+    text-decoration:none;color:var(--text);
+    font-weight:600;font-size:14px;
     transition:transform .25s ease, border-color .25s ease, background .25s ease;
   }
   .zalo-pill:active{ transform:scale(.96); }
@@ -380,78 +566,53 @@
     background:rgba(0,104,255,0.08);
   }
   .zalo-pill .ic{
-    width:34px;height:34px;
-    flex:none;
+    width:34px;height:34px;flex:none;
     border-radius:10px;
     background:linear-gradient(150deg,#3da9ff,var(--zalo));
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display:flex;align-items:center;justify-content:center;
   }
   .zalo-pill .ic svg{ width:18px;height:18px; }
-  .zalo-pill .meta{ display:flex; flex-direction:column; line-height:1.3; }
-  .zalo-pill .meta small{ color:var(--text-dim); font-weight:500; font-size:11.5px; }
+  .zalo-pill .meta{ display:flex;flex-direction:column;line-height:1.3; }
+  .zalo-pill .meta small{ color:var(--text-dim);font-weight:500;font-size:11.5px; }
 
   footer{
     margin-top:50px;
     padding:34px 18px 28px;
     text-align:center;
     border-top:1px solid var(--card-border);
-    color:var(--text-dim);
-    font-size:13px;
+    color:var(--text-dim);font-size:13px;
   }
   footer .fname{
-    font-weight:800;
-    font-size:16px;
-    color:var(--text);
-    margin-bottom:6px;
+    font-weight:800;font-size:16px;
+    color:var(--text);margin-bottom:6px;
     background:linear-gradient(95deg,#fff,var(--accent));
-    -webkit-background-clip:text;
-    background-clip:text;
+    -webkit-background-clip:text;background-clip:text;
   }
   footer .flinks{
-    display:flex;
-    justify-content:center;
-    gap:18px;
-    margin:14px 0;
-    flex-wrap:wrap;
+    display:flex;justify-content:center;gap:18px;margin:14px 0;flex-wrap:wrap;
   }
   footer .flinks a{
-    color:var(--text-dim);
-    text-decoration:none;
-    font-weight:600;
-    font-size:13px;
+    color:var(--text-dim);text-decoration:none;
+    font-weight:600;font-size:13px;
     transition:color .2s ease;
   }
   footer .flinks a:hover{ color:var(--accent); }
   footer .disclaimer{
-    margin-top:10px;
-    font-size:11.5px;
-    color:#5d6388;
-    line-height:1.6;
+    margin-top:10px;font-size:11.5px;color:#5d6388;line-height:1.6;
   }
 
-  /* back to top */
   .top-btn{
-    position:fixed;
-    right:16px;
-    bottom:16px;
-    width:46px;height:46px;
-    border-radius:50%;
+    position:fixed;right:16px;bottom:16px;
+    width:46px;height:46px;border-radius:50%;
     background:linear-gradient(150deg,var(--accent),var(--accent-2));
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display:flex;align-items:center;justify-content:center;
     box-shadow:0 10px 22px -6px rgba(255,122,61,0.6);
-    opacity:0;
-    pointer-events:none;
+    opacity:0;pointer-events:none;
     transform:translateY(10px);
     transition:opacity .3s ease, transform .3s ease;
-    z-index:10;
-    border:none;
-    cursor:pointer;
+    z-index:10;border:none;cursor:pointer;
   }
-  .top-btn.show{ opacity:1; pointer-events:auto; transform:translateY(0); }
+  .top-btn.show{ opacity:1;pointer-events:auto;transform:translateY(0); }
   .top-btn svg{ width:20px;height:20px; }
 
   @media (prefers-reduced-motion: reduce){
@@ -468,163 +629,261 @@
     <div class="orb orb4"></div>
 
     <header>
-      <h1>Tổng Hợp Server Game<br>Hay Nhất Hiện Tại</h1>
+      <div class="brand-header">
+        <div class="brand-mark-wrap">
+          <span class="ripple r1"></span>
+          <span class="ripple r2"></span>
+          <span class="ripple r3"></span>
+          <div class="brand-mark">
+            <img src="images/logo.png" alt="Thanh Di Studio" loading="eager"
+              onerror="this.style.display='none'">
+          </div>
+        </div>
+        <div class="brand-text">
+          <h1>Thanh Di <span class="studio-word">Studio</span></h1>
+          <p class="brand-sub">Thanh Di Studio - Giải pháp Công nghệ & Sáng tạo
+            nội dung số</p>
+        </div>
+      </div>
     </header>
+
+    <!-- Game Quick Nav -->
+    <nav class="game-nav-wrap" aria-label="Chọn game">
+      <p class="nav-section-label">✦ Các Tựa Game Hay ✦</p>
+      <br>
+      <div class="game-nav">
+        <button class="nav-item" data-nav="1" data-target="s-tdstudio">
+          <div class="nav-icon"
+            style="background:linear-gradient(150deg,#2a1f0a,#1a1206)">
+            <img src="images/avatar_tdstudio.png" alt="TDStudio" loading="lazy"
+              onerror="this.style.display='none'">
+          </div>
+          <span class="nav-label">Nro TDStudio</span>
+        </button>
+
+        <button class="nav-item" data-nav="2" data-target="s-ncd">
+          <div class="nav-icon"
+            style="background:linear-gradient(150deg,#0d1e3d,#071428)">
+            <img src="images/avatar_ncd.png" alt="NCD" loading="lazy"
+              onerror="this.style.display='none'">
+          </div>
+          <span class="nav-label">Nro NCD</span>
+        </button>
+
+        <button class="nav-item" data-nav="3" data-target="s-game3">
+          <div class="nav-icon"
+            style="background:linear-gradient(150deg,#2d1b54,#1a0f36)">
+            <img src="images/avatar_cindy.png" alt="NCD" loading="lazy"
+              onerror="this.style.display='none'">
+          </div>
+          <span class="nav-label">Nro Cindy</span>
+        </button>
+
+      </div>
+    </nav>
 
     <main class="wrap">
 
-      <!-- Server 1 -->
-      <div class="card reveal">
-        <div class="card-media">
-          <img src="images/preview_tdstudio.png"
-            alt="Ảnh preview Ngọc Rồng TDStudio"
-            loading="lazy" onerror="this.style.display='none'">
-        </div>
-        <div class="card-top">
-          <div class="icon-badge"><img
-              src="images/avatar_tdstudio.png"
-              alt="Logo Ngọc Rồng TDStudio" loading="lazy"></div>
-          <div>
-            <h3>Ngọc Rồng TDStudio</h3>
-            <span class="tag">Dame Trung</span>
+      <!-- Cards container — JS reorders children here -->
+      <div id="cards-wrap">
+
+        <!-- Server 1 -->
+        <div id="s-tdstudio" class="card reveal">
+          <div class="card-media">
+            <img src="images/preview_tdstudio.png"
+              alt="Ảnh preview Ngọc Rồng TDStudio"
+              loading="lazy" onerror="this.style.display='none'">
+          </div>
+          <div class="card-top">
+            <div class="icon-badge"><img
+                src="images/avatar_tdstudio.png"
+                alt="Logo Ngọc Rồng TDStudio" loading="lazy"></div>
+            <div>
+              <h3>Ngọc Rồng TDStudio</h3>
+              <span class="tag">Dame Trung</span>
+            </div>
+          </div>
+          <p class="desc">Sự kiện diễn ra liên tục. Cộng đồng đông đảo, máy chủ
+            ổn định lâu dài.</p>
+          <div class="status-row">
+            <span><i class="dot"></i> Đang Trực Tuyến</span>
+            <span><svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                style="vertical-align:-2px;flex:none"><circle cx="7.5" cy="7.5"
+                  r="7.5" fill="#3b82f6" /><path d="M4 7.5l2.5 2.5 4.5-5"
+                  stroke="#fff" stroke-width="1.8" stroke-linecap="round"
+                  stroke-linejoin="round" /></svg> Bảo Vệ Bởi Thanh Di</span>
+          </div>
+          <div class="btn-row">
+            <a href="https://thanhdi.games" class="btn btn-primary">▶ Vào
+              Game</a>
+            <a href="https://sv7.thanhdi.games/page?e=zalo"
+              class="btn btn-zalo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path
+                  d="M12 2C6.48 2 2 6.04 2 11c0 2.86 1.6 5.41 4.1 7.06-.15.66-.66 2.42-.76 2.79-.12.46.18.46.36.34.14-.1 2.2-1.45 3.1-2.04.99.25 2.05.39 3.2.39 5.52 0 10-4.04 10-9S17.52 2 12 2z" /></svg>
+              Cộng đồng
+            </a>
           </div>
         </div>
-        <p class="desc">Sự kiện diễn ra
-          liên tục. Cộng đồng đông đảo, máy chủ ổn định lâu dài.</p>
-        <div class="status-row">
-          <span><i class="dot"></i> Đang Trực Tuyến</span>
-          <span>🎁 Hàng loạt Giftcode</span>
-        </div>
-        <div class="btn-row">
-          <a href="https://thanhdi.games" class="btn btn-primary">▶ Vào Game</a>
-          <a href="https://sv7.thanhdi.games/page?e=zalo" class="btn btn-zalo">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path
-                d="M12 2C6.48 2 2 6.04 2 11c0 2.86 1.6 5.41 4.1 7.06-.15.66-.66 2.42-.76 2.79-.12.46.18.46.36.34.14-.1 2.2-1.45 3.1-2.04.99.25 2.05.39 3.2.39 5.52 0 10-4.04 10-9S17.52 2 12 2z" /></svg>
-            Cộng đồng
-          </a>
-        </div>
-      </div>
 
-      <!-- Server 2 -->
-      <div class="card reveal">
-        <div class="card-media">
-          <img src="images/preview_ncd.png" alt="Ảnh preview Ngọc Rồng NCD"
-            loading="lazy"
-            onerror="this.style.display='none'">
-        </div>
-        <div class="card-top">
-          <div class="icon-badge"><img
-              src="images/avatar_ncd.png"
-              alt="Logo Ngọc Rồng NCD" loading="lazy"></div>
-          <div>
-            <h3>Ngọc Rồng NCD</h3>
-            <span class="tag">Dame Gốc</span>
+        <!-- Server 2 -->
+        <div id="s-ncd" class="card reveal">
+          <div class="card-media">
+            <img src="images/preview_ncd.png" alt="Ảnh preview Ngọc Rồng NCD"
+              loading="lazy" onerror="this.style.display='none'">
+          </div>
+          <div class="card-top">
+            <div class="icon-badge"><img
+                src="images/avatar_ncd.png"
+                alt="Logo Ngọc Rồng NCD" loading="lazy"></div>
+            <div>
+              <h3>Ngọc Rồng NCD</h3>
+              <span class="tag">Dame Gốc</span>
+            </div>
+          </div>
+          <p class="desc">Giữ nguyên trải nghiệm Dame Gốc nguyên bản, công bằng
+            và cân bằng.</p>
+          <div class="status-row">
+            <span><i class="dot"></i> Đang Trực Tuyến</span>
+            <span><svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                style="vertical-align:-2px;flex:none"><circle cx="7.5" cy="7.5"
+                  r="7.5" fill="#3b82f6" /><path d="M4 7.5l2.5 2.5 4.5-5"
+                  stroke="#fff" stroke-width="1.8" stroke-linecap="round"
+                  stroke-linejoin="round" /></svg> Bảo Vệ Bởi Thanh Di</span>
+          </div>
+          <div class="btn-row">
+            <a href="https://nroncd.online" class="btn btn-primary">▶ Vào
+              Game</a>
+            <a href="https://sv2.nroncd.online/page?e=zalo"
+              class="btn btn-zalo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path
+                  d="M12 2C6.48 2 2 6.04 2 11c0 2.86 1.6 5.41 4.1 7.06-.15.66-.66 2.42-.76 2.79-.12.46.18.46.36.34.14-.1 2.2-1.45 3.1-2.04.99.25 2.05.39 3.2.39 5.52 0 10-4.04 10-9S17.52 2 12 2z" /></svg>
+              Cộng đồng
+            </a>
           </div>
         </div>
-        <p class="desc">Giữ nguyên trải nghiệm Dame Gốc nguyên bản, công bằng và
-          cân bằng.</p>
-        <div class="status-row">
-          <span><i class="dot"></i> Đang Trực Tuyến</span>
-          <span>🎁 Hàng loạt Giftcode</span>
-        </div>
-        <div class="btn-row">
-          <a href="https://sv2.nroncd.online" class="btn btn-primary">▶ Vào
-            Game</a>
-          <a href="https://sv2.nroncd.online/page?e=zalo" class="btn btn-zalo">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path
-                d="M12 2C6.48 2 2 6.04 2 11c0 2.86 1.6 5.41 4.1 7.06-.15.66-.66 2.42-.76 2.79-.12.46.18.46.36.34.14-.1 2.2-1.45 3.1-2.04.99.25 2.05.39 3.2.39 5.52 0 10-4.04 10-9S17.52 2 12 2z" /></svg>
-            Cộng đồng
-          </a>
-        </div>
-      </div>
 
-      <div class="section-title reveal"><span>💬 Cộng Đồng Zalo</span><span
-          class="line"></span></div>
+        <!-- Server 3 — thay tên, link, ảnh theo game của bạn -->
+        <div id="s-game3" class="card reveal">
+          <div class="card-media">
+            <div class="media-fallback">
+              <img src="images/preview_cindy.png"
+                alt="Ảnh preview Ngọc Rồng Cindy"
+                loading="lazy" onerror="this.style.display='none'">
+            </div>
+          </div>
+          <div class="card-top">
+            <div class="icon-badge"><img
+                src="images/avatar_cindy.png"
+                alt="Logo Ngọc Rồng Cindy" loading="lazy"></div>
+            <div>
+              <h3>Ngọc Rồng Cindy</h3>
+              <span class="tag">Dame Trung</span>
+            </div>
+          </div>
+          <p class="desc">Sự kiện diễn ra liên tục. Cộng đồng đông đảo, máy chủ
+            ổn định lâu dài.</p>
+          <div class="status-row">
+            <span><i class="dot"></i> Đang Trực Tuyến</span>
+            <span><svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                style="vertical-align:-2px;flex:none"><circle cx="7.5" cy="7.5"
+                  r="7.5" fill="#3b82f6" /><path d="M4 7.5l2.5 2.5 4.5-5"
+                  stroke="#fff" stroke-width="1.8" stroke-linecap="round"
+                  stroke-linejoin="round" /></svg> Bảo Vệ Bởi Thanh Di</span>
+          </div>
+          <div class="btn-row">
+            <a href="https://nrocindy.online" class="btn btn-primary">▶ Vào
+              Game</a>
+            <a href="https://sv1.nrocindy.online/page?e=zalo"
+              class="btn btn-zalo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path
+                  d="M12 2C6.48 2 2 6.04 2 11c0 2.86 1.6 5.41 4.1 7.06-.15.66-.66 2.42-.76 2.79-.12.46.18.46.36.34.14-.1 2.2-1.45 3.1-2.04.99.25 2.05.39 3.2.39 5.52 0 10-4.04 10-9S17.52 2 12 2z" /></svg>
+              Cộng đồng
+            </a>
+          </div>
+        </div>
 
-      <div class="zalo-grid reveal">
-        <a href="https://zalo.me/g/acxvjw835" class="zalo-pill">
-          <span class="ic"><svg viewBox="0 0 24 24" fill="#fff"><path
-                d="M12 2C6.48 2 2 6.04 2 11c0 2.86 1.6 5.41 4.1 7.06-.15.66-.66 2.42-.76 2.79-.12.46.18.46.36.34.14-.1 2.2-1.45 3.1-2.04.99.25 2.05.39 3.2.39 5.52 0 10-4.04 10-9S17.52 2 12 2z" /></svg></span>
-          <span class="meta">Nhóm Zalo Giftcode 1</span>
-        </a>
-        <a href="https://zalo.me/g/mftkmn654" class="zalo-pill">
-          <span class="ic"><svg viewBox="0 0 24 24" fill="#fff"><path
-                d="M12 2C6.48 2 2 6.04 2 11c0 2.86 1.6 5.41 4.1 7.06-.15.66-.66 2.42-.76 2.79-.12.46.18.46.36.34.14-.1 2.2-1.45 3.1-2.04.99.25 2.05.39 3.2.39 5.52 0 10-4.04 10-9S17.52 2 12 2z" /></svg></span>
-          <span class="meta">Nhóm Zalo Giftcode 2</span>
-        </a>
-        <a href="https://zalo.me/g/ugyxtyh8qgypyzgbqjuk" class="zalo-pill">
-          <span class="ic"><svg viewBox="0 0 24 24" fill="#fff"><path
-                d="M12 2C6.48 2 2 6.04 2 11c0 2.86 1.6 5.41 4.1 7.06-.15.66-.66 2.42-.76 2.79-.12.46.18.46.36.34.14-.1 2.2-1.45 3.1-2.04.99.25 2.05.39 3.2.39 5.52 0 10-4.04 10-9S17.52 2 12 2z" /></svg></span>
-          <span class="meta">Nhóm Zalo Giftcode 3</span>
-        </a>
-        <a href="https://zalo.me/g/jcssww622" class="zalo-pill">
-          <span class="ic"><svg viewBox="0 0 24 24" fill="#fff"><path
-                d="M12 2C6.48 2 2 6.04 2 11c0 2.86 1.6 5.41 4.1 7.06-.15.66-.66 2.42-.76 2.79-.12.46.18.46.36.34.14-.1 2.2-1.45 3.1-2.04.99.25 2.05.39 3.2.39 5.52 0 10-4.04 10-9S17.52 2 12 2z" /></svg></span>
-          <span class="meta">Nhóm Zalo Giftcode 4</span>
-        </a>
-        <a href="https://zalo.me/g/hfl2vzndgjskd0egmdmu" class="zalo-pill">
-          <span class="ic"><svg viewBox="0 0 24 24" fill="#fff"><path
-                d="M12 2C6.48 2 2 6.04 2 11c0 2.86 1.6 5.41 4.1 7.06-.15.66-.66 2.42-.76 2.79-.12.46.18.46.36.34.14-.1 2.2-1.45 3.1-2.04.99.25 2.05.39 3.2.39 5.52 0 10-4.04 10-9S17.52 2 12 2z" /></svg></span>
-          <span class="meta">Nhóm Zalo Giftcode 5</span>
-        </a>
-        <a href="https://zalo.me/g/cxcyjr130" class="zalo-pill">
-          <span class="ic"><svg viewBox="0 0 24 24" fill="#fff"><path
-                d="M12 2C6.48 2 2 6.04 2 11c0 2.86 1.6 5.41 4.1 7.06-.15.66-.66 2.42-.76 2.79-.12.46.18.46.36.34.14-.1 2.2-1.45 3.1-2.04.99.25 2.05.39 3.2.39 5.52 0 10-4.04 10-9S17.52 2 12 2z" /></svg></span>
-          <span class="meta">Nhóm Zalo Giftcode 6</span>
-        </a>
-      </div>
+      </div><!-- /cards-wrap -->
 
     </main>
 
     <footer class="reveal">
-      <div class="fname">GameHub VN</div>
-      <p>Nơi tổng hợp những server game Ngọc Rồng chất lượng nhất.</p>
+      <div class="fname">Thanh Di Studio</div>
+      <p>Nơi tổng hợp những server game Ngọc Rồng chất lượng.</p>
       <div class="flinks">
-        <a href="#">Trang chủ</a>
-        <a href="#">Giới thiệu</a>
-        <a href="#">Liên hệ</a>
-        <a href="#">Quảng cáo</a>
+        <a href="https://thanhdistudio.com">Trang chủ</a>
+        <a href="https://thanhdistudio.com">Giới thiệu</a>
+        <a href="https://zalo.me/0345463318">Liên hệ</a>
+        <a href="https://zalo.me/0345463318">Quảng cáo</a>
       </div>
-      <div>© 2026 GameHub VN. All rights reserved.</div>
-      <p class="disclaimer">Website mang tính chất tổng hợp thông tin cộng đồng,
-        không phải đơn vị phát hành chính thức của các server được liệt kê.</p>
+      <div>© 2026 Thanh Di Studio. All rights reserved.</div>
+      <p class="disclaimer">Website tổng hợp các trang chủ game Ngọc Rồng.</p>
     </footer>
 
     <button class="top-btn" id="topBtn" aria-label="Lên đầu trang">
       <svg viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2.5"
-        stroke-linecap="round" stroke-linejoin="round"><path
-          d="M12 19V5M5 12l7-7 7 7" /></svg>
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 19V5M5 12l7-7 7 7" />
+      </svg>
     </button>
 
     <script>
-  if ('scrollRestoration' in history) {
-    history.scrollRestoration = 'manual';
-  }
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   window.scrollTo(0, 0);
 
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (!reduceMotion) {
-    setTimeout(() => {
-      document.getElementById('server-noi-bat').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 1500);
-  }
+  const CARD_IDS = ['s-tdstudio', 's-ncd', 's-game3'];
+  const navBtns = Array.from(document.querySelectorAll('.nav-item'));
 
-  const reveals = document.querySelectorAll('.reveal');
-  const io = new IntersectionObserver((entries)=>{
-    entries.forEach(e=>{
-      if(e.isIntersecting){
-        e.target.classList.add('visible');
-        io.unobserve(e.target);
+  /* ── Active state ── */
+  function setActive(idx) {
+    navBtns.forEach(btn => {
+      btn.classList.remove('a1','a2','a3');
+      if (Number(btn.dataset.nav) === idx) btn.classList.add('a' + idx);
+    });
+  }
+  setActive(1);
+
+  /* ── Click → smooth scroll tới card ── */
+  navBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const idx = Number(btn.dataset.nav);
+      const target = document.getElementById(btn.dataset.target);
+      setActive(idx);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  /* ── Tự highlight khi scroll qua card ── */
+  const cardIO = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        const found = CARD_IDS.indexOf(e.target.id);
+        if (found !== -1) setActive(found + 1);
       }
     });
-  },{ threshold:0.12 });
-  reveals.forEach(el=>io.observe(el));
+  }, { rootMargin: '-15% 0px -60% 0px' });
 
+  CARD_IDS.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) cardIO.observe(el);
+  });
+
+  /* ── Reveal on scroll ── */
+  const revealIO = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        revealIO.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => revealIO.observe(el));
+
+  /* ── Back to top ── */
   const topBtn = document.getElementById('topBtn');
-  window.addEventListener('scroll', ()=>{
+  window.addEventListener('scroll', () => {
     topBtn.classList.toggle('show', window.scrollY > 420);
   });
-  topBtn.addEventListener('click', ()=> window.scrollTo({top:0, behavior:'smooth'}));
+  topBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 </script>
 
   </body>
