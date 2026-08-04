@@ -461,6 +461,62 @@
     50%{ transform:translateY(-5px) rotate(-4deg); }
   }
 
+  /* New-server highlight: rainbow spinning ring + NEW ribbon */
+  .icon-badge-wrap{
+    position:relative;
+    flex:none;
+    width:54px;height:54px;
+  }
+  .icon-badge-wrap::before{
+    content:"";
+    position:absolute;
+    inset:-4px;
+    border-radius:19px;
+    background:conic-gradient(from 0deg,
+      #ff0000,#ff9900,#ffee00,#33ff00,#00e0ff,#3366ff,#cc00ff,#ff0000);
+    animation:rainbow-spin 3s linear infinite;
+    z-index:0;
+  }
+  .icon-badge-wrap .icon-badge{ position:relative;z-index:1; }
+  .nav-icon-wrap{
+    position:relative;
+    flex:none;
+    width:60px;height:60px;
+  }
+  .nav-icon-wrap::before{
+    content:"";
+    position:absolute;
+    inset:-4px;
+    border-radius:20px;
+    background:conic-gradient(from 0deg,
+      #ff0000,#ff9900,#ffee00,#33ff00,#00e0ff,#3366ff,#cc00ff,#ff0000);
+    animation:rainbow-spin 3s linear infinite;
+    z-index:0;
+  }
+  .nav-icon-wrap .nav-icon{ position:relative;z-index:1; }
+  .nav-icon-wrap .new-badge{
+    top:-8px;right:-10px;
+    font-size:9px;
+    padding:1px 6px;
+  }
+  .new-badge{
+    position:absolute;
+    top:-9px;right:-12px;
+    z-index:2;
+    background:linear-gradient(135deg,#ff416c,#ff4b2b);
+    color:#fff;
+    font-size:10px;font-weight:800;letter-spacing:.5px;
+    padding:2px 7px;
+    border-radius:999px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.4);
+    animation:new-pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes rainbow-spin{ to{ transform:rotate(360deg); } }
+  @keyframes new-pulse{
+    0%,100%{ transform:scale(1); }
+    50%{ transform:scale(1.15); }
+  }
+
   .card h3{ font-size:19px;font-weight:800; }
   .tag{
     display:inline-block;
@@ -692,10 +748,13 @@
         </button>
 
         <button class="nav-item" data-nav="3" data-target="s-game3">
-          <div class="nav-icon"
-            style="background:linear-gradient(150deg,#2d1b54,#1a0f36)">
-            <img src="images/avatar_cindy.png" alt="NCD" loading="lazy"
-              onerror="this.style.display='none'">
+          <div class="nav-icon-wrap">
+            <div class="nav-icon"
+              style="background:linear-gradient(150deg,#2d1b54,#1a0f36)">
+              <img src="images/avatar_cindy.png" alt="NCD" loading="lazy"
+                onerror="this.style.display='none'">
+            </div>
+            <span class="new-badge">NEW</span>
           </div>
           <span class="nav-label">Nro Cindy</span>
         </button>
@@ -793,9 +852,12 @@
             </div>
           </div>
           <div class="card-top">
-            <div class="icon-badge"><img
-                src="images/avatar_cindy.png"
-                alt="Logo Ngọc Rồng Cindy" loading="lazy"></div>
+            <div class="icon-badge-wrap">
+              <div class="icon-badge"><img
+                  src="images/avatar_cindy.png"
+                  alt="Logo Ngọc Rồng Cindy" loading="lazy"></div>
+              <span class="new-badge">NEW</span>
+            </div>
             <div>
               <h3>Ngọc Rồng Cindy</h3>
               <span class="tag">Dame Trung</span>
