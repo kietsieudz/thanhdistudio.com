@@ -51,7 +51,8 @@ img{max-width:100%;}
 }
 /* dùng trên trang có sẵn thanh sticky riêng (vd. index.html) để tránh chồng lấn */
 .site-nav-wrap.no-sticky{
-  position:static;
+  position:relative;
+  z-index:100;
 }
 .site-nav{
   position:relative;
